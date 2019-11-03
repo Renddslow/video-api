@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "dot-prop": "^5.2.0",
+    "got": "^9.6.0",
+    "polkadot": "^1.0.0"
+  },
+  "scripts": {
+    "start": "polkadot index.js",
+    "publish:docker": "gcloud builds submit --tag gcr.io/flatland-api/video-api"
+  }
+}
